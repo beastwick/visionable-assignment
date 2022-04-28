@@ -47,7 +47,7 @@ class ClinicController extends Controller
             return response()->json([ 'stored' => $clinic ], 201);
         }
 
-        return response()->json([ 'error' => 'Failed to create clinic.'  ], 409);
+        return response()->json([ 'error' => 'Failed to create clinic.'  ], 400);
     }
 
     /**
