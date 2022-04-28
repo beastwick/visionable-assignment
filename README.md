@@ -20,7 +20,7 @@ composer dumpautoload
 
 cp .env.example to .env 
 
-## Update the following fields in .env:
+## Update the following fields in .env
 
 ```
 APP_ENV=local 
