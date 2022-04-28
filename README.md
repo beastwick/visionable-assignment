@@ -2,12 +2,13 @@
 
 ```
 composer install
+
 cp .env.example to .env 
 ```
 
 ## Sail
 
-This is Laravel's built in docker functionality.
+This is Laravel's built in docker functionality. [Sail](https://laravel.com/docs/9.x/sail)
 ### Update the following fields in .env
 
 ```
