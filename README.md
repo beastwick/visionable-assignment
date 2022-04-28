@@ -1,14 +1,13 @@
 # Setup
 
-## Sail
-
-This is Laravel's built in docker functionality.
-
 ```
 composer install
 cp .env.example to .env 
 ```
 
+## Sail
+
+This is Laravel's built in docker functionality.
 ### Update the following fields in .env
 
 ```
@@ -38,13 +37,6 @@ php artisan sail:install
 
 ```
 ./vendor/bin/sail artisan migrate
-```
-
-### Run the provided integration tests.
-
-```
-./vendor/bin/sail artisan test --filter ClinicControllerTest
-./vendor/bin/sail artisan test --filter AppointmentControllerTest
 ```
 
 ## Manually 
@@ -91,11 +83,20 @@ php artisan migrate
 php artisan serve 
 ```
 
-### Testing
+## Testing
 
 I've included a postman workspace, postman_collection.json, with the basic CRUD routes. The routes are setup to work with the default laravel instance Sail sets up. 
 
 You may also run the two individual unit (integration) tests provided. 
+
+### Sail 
+
+```
+./vendor/bin/sail artisan test --filter ClinicControllerTest
+./vendor/bin/sail artisan test --filter AppointmentControllerTest
+```
+
+### Local
 
 ```
 php artisan test --filter ClinicControllerTest
