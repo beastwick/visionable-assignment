@@ -32,6 +32,8 @@ DB_PASSWORD=visionable
 
 Create a mariadb user named visionable, with password visionable, and database named visionable. 
 
+Generate the database schema using the project's migration files.
+
 ```
 php artisan migrate 
 ```
