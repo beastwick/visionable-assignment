@@ -107,6 +107,24 @@ php artisan test --filter AppointmentControllerTest
 
 You may also import and call the routes using the provided Postman workspace. Make sure the address:port is correct as it expects to work with the server started by Sail and not local.
 
+# Troubleshooting
+
+These commands will clear all caches.
+
+```
+php artisan config:clear
+php artisan cache:clear
+php artisan route:clear
+php artisan view:clear
+php artisan optimize
+```
+
+Generate a fresh database.
+
+```
+php artisan migrate:fresh
+```
+
 # Authentication
 
 I considered guarding the api with user authentication, so Laravel's Breeze framework is in place, but I felt it complicated the ask so it has not been fully implemented.
