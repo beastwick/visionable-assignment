@@ -44,7 +44,7 @@ php artisan serve
 
 # Testing
 
-I've included a postman workspace with the basic CRUD routes. 
+I've included a postman workspace, postman_collection.json, with the basic CRUD routes. 
 
 You may also run the two individual unit (integration) tests provided. 
 
