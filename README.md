@@ -20,7 +20,7 @@ composer dumpautoload
 
 cp .env.example to .env 
 
-## Update the following fields:
+## Update the following fields in .env:
 
 ```
 APP_ENV=local 
@@ -30,8 +30,7 @@ DB_USERNAME=visionable
 DB_PASSWORD=visionable 
 ```
 
-Create a mariadb user named visionable, with password visionable. 
-Create a mariadb database named visionable. 
+Create a mariadb user named visionable, with password visionable, and database named visionable. 
 
 ```
 php artisan migrate 
