@@ -79,6 +79,8 @@ Create a mariadb user named visionable, with password visionable, and database n
 ### Modify .env
 
 ```
+APP_URL=http://localhost:8000
+
 DB_DATABASE=visionable
 DB_USERNAME=visionable
 DB_PASSWORD=visionable
