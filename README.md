@@ -103,4 +103,4 @@ php artisan test --filter AppointmentControllerTest
 
 # Authentication
 
-I considered guarding the api with user authentication, so Laravel's Breeze framework is in place, but I felt it complicated the basic ask so it has not been fully implemented.
+I considered guarding the api with user authentication, so Laravel's Breeze framework is in place, but I felt it complicated the ask so it has not been fully implemented.
