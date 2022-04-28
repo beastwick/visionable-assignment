@@ -18,6 +18,10 @@ composer install
 composer dumpautoload 
 ```
 
+### Use Sail
+
+
+
 cp .env.example to .env 
 
 ### Update the following fields in .env
