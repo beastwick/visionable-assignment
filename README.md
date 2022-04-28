@@ -53,7 +53,7 @@ php artisan sail:install
 
 composer<br>
 php<br>
-mariadb>br>
+mariadb<br>
 
 ## Install
 
