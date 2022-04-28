@@ -46,7 +46,7 @@ php artisan serve
 
 I've included a postman workspace with the basic CRUD routes. 
 
-You may also run the two individual unit tests provided. They're really integration tests though because they're interacting with the database. 
+You may also run the two individual unit (integration) tests provided. 
 
 ```
 php artisan test --filter ClinicControllerTest
