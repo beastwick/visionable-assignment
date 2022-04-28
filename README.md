@@ -1,4 +1,4 @@
-# Dependencies:
+# Dependencies
 
 php<br> 
 composer<br>
@@ -11,7 +11,7 @@ extension=mysqli
 extension=pdo_mysql
 ```
 
-# Setup:
+# Setup
 
 ```
 composer install 
@@ -36,13 +36,13 @@ Create a mariadb user named visionable, with password visionable, and database n
 php artisan migrate 
 ```
 
-# Running:
+# Running
 
 ```
 php artisan serve 
 ```
 
-# Testing:
+# Testing
 
 I've included a postman workspace with the basic CRUD routes. 
 
