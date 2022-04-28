@@ -85,7 +85,7 @@ php artisan serve
 
 ## Testing
 
-I've included a postman workspace, postman_collection.json, with the basic CRUD routes. The routes are setup to work with the default laravel instance Sail sets up. 
+I've included a postman workspace, postman_collection.json, with the basic CRUD routes. The routes are setup to work with the default Laravel instance Sail sets up. 
 
 You may also run the two individual unit (integration) tests provided. 
 
