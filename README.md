@@ -1,4 +1,37 @@
-# Dependencies
+# Sail
+
+This is Laravel's built in docker functionality.
+
+```
+composer install
+cp .env.example to .env 
+```
+
+### Update the following fields in .env
+
+```
+DB_DATABASE=visionable 
+DB_USERNAME=visionable 
+DB_PASSWORD=visionable 
+
+WWWGROUP=1000
+WWWUSER=1000
+```
+
+``` 
+php artisan sail:install
+
+  select mariadb at the prompt
+
+./vendor/bin/sail up
+./vendor/bin/sail artisan migrate
+./vendor/bin/sail artisan test --filter ClinicControllerTest
+./vendor/bin/sail artisan test --filter AppointmentControllerTest
+```
+
+# Manually 
+
+### Dependencies
 
 php<br> 
 composer<br>
@@ -11,24 +44,16 @@ extension=mysqli
 extension=pdo_mysql
 ```
 
-# Setup
-
 ```
 composer install 
 composer dumpautoload 
 ```
-
-### Use Sail
-
-
 
 cp .env.example to .env 
 
 ### Update the following fields in .env
 
 ```
-APP_ENV=local 
-
 DB_DATABASE=visionable 
 DB_USERNAME=visionable 
 DB_PASSWORD=visionable 
@@ -50,7 +75,7 @@ php artisan serve
 
 # Testing
 
-I've included a postman workspace, postman_collection.json, with the basic CRUD routes. 
+I've included a postman workspace, postman_collection.json, with the basic CRUD routes. The routes are setup to work with the default laravel instance Sail sets up. 
 
 You may also run the two individual unit (integration) tests provided. 
 
