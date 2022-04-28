@@ -39,7 +39,7 @@ php artisan sail:install
 ./vendor/bin/sail artisan migrate
 ```
 
-## Manually 
+## Local 
 
 ### Dependencies
 
