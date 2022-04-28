@@ -54,3 +54,7 @@ You may also run the two individual unit (integration) tests provided.
 php artisan test --filter ClinicControllerTest
 php artisan test --filter AppointmentControllerTest
 ```
+
+# Additional
+
+I considered guarding the api with user authentication, so Laravel's Breeze authentication framework is in place, but I think it over complicated the ask of the project. In the real world I would have authentication in place to interact with my API.
