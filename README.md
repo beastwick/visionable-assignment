@@ -1,4 +1,6 @@
-# Sail
+# Setup
+
+## Sail
 
 This is Laravel's built in docker functionality.
 
@@ -18,18 +20,34 @@ WWWGROUP=1000
 WWWUSER=1000
 ```
 
+### Install sail.
+
 ``` 
 php artisan sail:install
 
   select mariadb at the prompt
+```
 
+### Run sail.
+
+```
 ./vendor/bin/sail up
+```
+
+### Generate the database.
+
+```
 ./vendor/bin/sail artisan migrate
+```
+
+### Run the provided integration tests.
+
+```
 ./vendor/bin/sail artisan test --filter ClinicControllerTest
 ./vendor/bin/sail artisan test --filter AppointmentControllerTest
 ```
 
-# Manually 
+## Manually 
 
 ### Dependencies
 
@@ -67,13 +85,13 @@ Generate the database schema using the project's migration files.
 php artisan migrate 
 ```
 
-# Running
+### Running
 
 ```
 php artisan serve 
 ```
 
-# Testing
+### Testing
 
 I've included a postman workspace, postman_collection.json, with the basic CRUD routes. The routes are setup to work with the default laravel instance Sail sets up. 
 
