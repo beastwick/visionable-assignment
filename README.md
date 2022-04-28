@@ -47,6 +47,8 @@ php artisan sail:install
 ./vendor/bin/sail artisan test --filter AppointmentControllerTest
 ```
 
+You may also import and call the routes using the provided Postman workspace.
+
 ## Local
 
 ### Dependencies
@@ -100,6 +102,8 @@ php artisan serve
 php artisan test --filter ClinicControllerTest
 php artisan test --filter AppointmentControllerTest
 ```
+
+You may also import and call the routes using the provided Postman workspace. Make sure the address:port is correct as it expects to work with the server started by Sail and not local.
 
 # Authentication
 
