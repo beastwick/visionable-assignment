@@ -4,8 +4,8 @@
 
 ### Dependencies
 
-composer
-docker
+composer<br>
+docker<br>
 
 ### Install
 
@@ -51,9 +51,9 @@ php artisan sail:install
 
 ### Dependencies
 
-composer
-php
-mariadb
+composer<br>
+php<br>
+mariadb>br>
 
 ## Install
 
